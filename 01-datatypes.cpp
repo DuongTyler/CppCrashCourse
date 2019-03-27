@@ -27,6 +27,10 @@ int main()
 
 	//for loops work the same way as in java, same as if statements. However, strings are different. There is no String.equals() function, Instead, in c++, you can just use the == operator
 	if (str == str)		printf("str does indeed equal str\n");
+
+	//we cast datatypes just as we do in java
+	std::cout<< "Cast 1.5 to an int: "<< (int)1.5 << std::endl;
+	//if std::cout looks scary, don't worry. Its the C++ way of doing System.out.println();
 	
 	//ASSIGNMENT: so, now that we know how to compare things, loop through the array 'arr' and only print odd numbers. You can use cout or printf().
 
