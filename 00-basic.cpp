@@ -5,7 +5,7 @@
  *
  * Welcome to my c++ crash course. I'll be going over some of the differences between c++ and java.
  *
- * First off, cpp gives you much closer control of memory, which means it is easier to mess up and leak memory. You can think of c++ as c but with extra libraries.
+ * First off, cpp gives you much closer control of memory, which means it is easier to mess up and leak memory. If you know C, You can think of c++ as c but with extra libraries.
  *
  * Let's begin with some of the basics:
  */
