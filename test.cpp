@@ -30,19 +30,15 @@ int main()
 	//we can also print the size of the value stored in memory in bytes using the sizeof() function
 	printf("size of an int: %d\n", sizeof(int));	//4 bytes = 4*8 bits = 32 bits.
 
-	delete a;
-
-	//now, something interesting happens here.
-	int *c = new int;	//we allocate memory for c on the heap.
-	*c = 10;		//c gets 10
-	a = new int;		//we now allocate new memory for a
-	*a = 8;			//a gets 8
-	cout << *b << endl;	//what does b print?
-	delete c;		
-	//the reason this happens is because the int is stored in the next available address, in this case, c was allocated where a used to be, and b points to where a used to point.
 	delete a;	// we must deallocate the memory stored in a. Otherwise we will leak memory
 			//now b is also dangling, but it's fine. We can reuse a and reallocate it later.
-		
+	int *c = new int;
+	*c = 10;
+	a = new int;
+	*a = 8;
+	cout << *b << endl;
+	delete a;
+	delete c;
 	//ASSIGNMENT: declare a new String pointer, allocate some memory for a string, and print the value and memory location of the string with printf or cout. Do not leak memory. remember to free the memory.
 
 	return 0;
