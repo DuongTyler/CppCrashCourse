@@ -11,6 +11,7 @@
  */
 
 //these include statements include libraries from the system allowing you to call certain functions.
+//It's like import *.* in java
 #include <stdio.h>
 //stdio is a header that allows for standard input output, much like how System,out.println allows you to output to the terminal. For c++, we use cout << "text" << endl
 #include <stdlib.h>
