@@ -3,7 +3,7 @@ Welcome to my cpp crashcourse. There may be several things wrong with this tutor
 <ul>
 	<dt>Linux:
 		<ul>
-			<li>run g++ <file.cpp>. You must have g++ installed, or your choice of compiler</li>
+			<li>run g++ file.cpp. You must have g++ installed, or your choice of compiler</li>
 		</ul>
 	</dt>
 	<dt>Windows:
