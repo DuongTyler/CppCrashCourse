@@ -25,5 +25,6 @@ int main()
 {
 	int arr[] = {1,4,7,8,9,15,29,40,47,56,69,82,99,100};
 	int searchfor = 40;
+	cin >> searchfor;
 	printf("Found %d at index %d\n", searchfor, binSearch( arr, searchfor, 0, sizeof(arr)/4));
 }
