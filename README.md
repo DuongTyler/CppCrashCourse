@@ -3,7 +3,7 @@ Welcome to my cpp crashcourse. There may be several things wrong with this tutor
 <ul>
 	<dt>Linux:
 		<ul>
-			<li>run g++ file.cpp. You must have g++ installed, or your choice of compiler</li>
+			<li>run g++ file.cpp. You must have g++ installed, or have some other compiler available</li>
 		</ul>
 	</dt>
 	<dt>Windows:
@@ -13,7 +13,7 @@ Welcome to my cpp crashcourse. There may be several things wrong with this tutor
 	</dt>
 	<dt>Mac:
 		<ul>
-			<li>You should know how to compile on mac. Just throw money at the screen if all else fails, and apple will compile it for you</li>
+			<li>(Eric) You should know how to compile on mac. Just throw money at the screen, and an assistant from the Genius bar will come to help you.</li>
 		</ul>
 	</dt>
 </ul>
