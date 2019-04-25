@@ -13,7 +13,7 @@ Welcome to my cpp crashcourse. There may be several things wrong with this tutor
 	</dt>
 	<dt>Mac:
 		<ul>
-			<li>(Eric) You should know how to compile on mac. Just throw money at the screen, and an assistant from the Genius bar will come to help you.</li>
+			<li>(Eric) You should know how to compile on mac.</li>
 		</ul>
 	</dt>
 </ul>
