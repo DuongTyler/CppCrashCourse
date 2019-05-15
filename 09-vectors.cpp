@@ -55,6 +55,7 @@ int main()
 	//PRACTICE: 
 	//	-- create a class that holds an x and y coordinate
 	//	-- create a vector of 10 points
+	//	-- print each point
 
 
 	return 0;
