@@ -8,6 +8,7 @@
 #include <string>	
 using namespace std;
 
+
 int main()
 {
 	//so, I mentioned that it is easier to mess up in c/c++ with memory leaks. Java has something called a garbage collector that taxes the system of resources while cleaning up after you when you dereference an object.
