@@ -1,6 +1,6 @@
 /*
  * IN THIS LESSON:
- * 	declaring an int
+ * 	Declaring an int
  * 	Printing to the console
  *
  * Welcome to my c++ crash course. I'll be going over some of the differences between c++ and java.
