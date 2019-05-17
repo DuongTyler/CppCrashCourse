@@ -8,6 +8,7 @@
 #include <string>	
 using namespace std;
 
+//namespace covered in 00-basics
 
 int main()
 {
