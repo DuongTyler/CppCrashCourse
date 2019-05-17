@@ -2,6 +2,7 @@
  * IN THIS LESSON:
  * 	Memory, pointers, and memory leaks	
  */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
