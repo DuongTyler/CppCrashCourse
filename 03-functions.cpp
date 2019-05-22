@@ -20,7 +20,7 @@ int add(int a = 0, int b = 0)
 	return a+b;
 }
 
-void changePtrVal(int* a, int b)	//this passes a value by reference. see main.
+void changePtrVal(int *a, int b)	//this passes a value by reference. see main.
 {
 	*a = b;	//replaces a's value with b
 }

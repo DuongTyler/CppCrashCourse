@@ -1,5 +1,5 @@
-# CppCrashCourse
-Welcome to my cpp crashcourse. There may be several things wrong with this tutorial so please point them out by messaging me (or by fixing it yourselves and pushing to this repo)
+# C++ Crash Course
+This is a tutorial mainly meant for my java classmates to learn C++. There are probably several things wrong with this tutorial. This code has bugs.
 <ul>
 	<dt>Linux:
 		<ul>
@@ -13,7 +13,7 @@ Welcome to my cpp crashcourse. There may be several things wrong with this tutor
 	</dt>
 	<dt>Mac:
 		<ul>
-			<li>(Eric) You should know how to compile on mac.</li>
+			<li>IDK, Bing it</li>
 		</ul>
 	</dt>
 </ul>
