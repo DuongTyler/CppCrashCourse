@@ -3,7 +3,7 @@ This is a tutorial mainly meant for my java classmates to learn C++. There are p
 <ul>
 	<dt>Linux:
 		<ul>
-			<li>```bash g++ file.cpp``` You must have g++ installed, or have some other compiler available</li>
+			<li>Command: g++ file.cpp : You must have g++ installed, or have some other compiler available</li>
 		</ul>
 	</dt>
 	<dt>Windows:
