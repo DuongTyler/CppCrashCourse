@@ -23,7 +23,7 @@ int main()
 	
 	int *b = a;		// the pointer b now points to the memory address at a.
 	*b = 5;			// b points to the same place in memory as a; thus, if we print a, we get 5
-	printf("%d\n", *a);	// this basically prints a decimal (%d) and a newline with the value from a's pointer
+	printf("a's value: %d\n", *a);	// this basically prints a decimal (%d) and a newline with the value from a's pointer
 
 	printf("a's pointer: %p\n", a);	// print pointer address
 	printf("b's pointer: %p\n", b);	// print pointer address
@@ -39,8 +39,12 @@ int main()
 	*c = 10;		//c gets 10
 	a = new int;		//we now allocate new memory for a
 	*a = 8;			//a gets 8
-	cout << *b << endl;	//what does b print?
 
+	cout << "a's value: " << *a << endl;	//what does a print?
+	cout << "b's value: " << *b << endl;	//what does b print?
+	cout << "c's value: " << *c << endl;	//what does c print?
+
+	printf("a's pointer: %p\n", a);
 	printf("b's pointer: %p\n", b);
 	printf("c's pointer: %p\n", c);
 

@@ -32,6 +32,12 @@ int main()
 	//we cast datatypes just like in java
 	std::cout<< "Cast 1.5 to an int: "<< (int)1.5 << std::endl;
 	//if 'std::cout' looks scary, don't worry. It's the c++ way of doing System.out.println();
+	//this is how we use for loops with arrays:
+	for (int i = 0; i < (sizeof(arr)/sizeof(arr[0])); i++)
+	{
+		printf("%d ", arr[i]);
+	}
+	printf("\n");
 	
 	//ASSIGNMENT: so now that we know how to compare things, loop through the array 'arr' and only print odd numbers. You can use cout or printf().
 
