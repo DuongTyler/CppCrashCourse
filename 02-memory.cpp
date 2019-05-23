@@ -40,6 +40,10 @@ int main()
 	a = new int;		//we now allocate new memory for a
 	*a = 8;			//a gets 8
 	cout << *b << endl;	//what does b print?
+
+	printf("b's pointer: %p\n", b);
+	printf("c's pointer: %p\n", c);
+
 	delete c;		
 	//the reason this happens is because the int is stored in the next available address, (c in this case), and was allocated where a used to be, and b points to where a used to point.
 	delete a;	// we must deallocate the memory stored in a. Otherwise we will leak memory
