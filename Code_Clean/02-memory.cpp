@@ -32,6 +32,8 @@ int main()
 	
 	printf("b's pointer: %p\n", b);
 	printf("c's pointer: %p\n", c);
+	printf("a's pointer: %p\n", a);
+
 
 	delete c;		
 	delete a;
